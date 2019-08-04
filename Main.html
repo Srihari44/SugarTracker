@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta http-equiv="refresh" content="5">
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body class="bod">
+    
+        <br><nav><h2>Sugar Tracker</h2></nav>
+        <container>
+            <br>
+            <h4>Before Fasting: &nbsp;</h4><br>
+            <div>
+            <div class="input-group mb-3">
+            <pre></pre><input placeholder=" Enter Reading">
+                <div class="input-group-append">
+                    <span class="input-group-text" >Mg/dl</span>
+                </div><br>
+            </div>
+            <div class="input-group mb-3" style="size: 5px">
+            <input type="datetime-local">
+            <div class="input-group-append">
+                    <span class="input-group-text">Date</span>
+                </div>
+                <br>
+            </div>
+            </div>
+            <br>
+            <h4>After Fasting: &nbsp;</h4><br>
+            <div>
+            <div class="input-group mb-3">
+            <pre></pre><input placeholder=" Enter Reading">
+                <div class="input-group-append">
+                    <span class="input-group-text" >Mg/dl</span>
+                </div><br>
+            </div>
+            <div class="input-group mb-3" style="size: 5px">
+            <input type="datetime-local">
+            <div class="input-group-append">
+                    <span class="input-group-text">Date</span>
+                </div>
+                <br>
+            </div>
+            </div>
+        </container>
+        <br>
+            <button onclick="store()">Sumbit</button><br>
+            <button>See Record History</button>
+</body>
+<style>
+    .bod{
+        background-color: crimson;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 10px;
+    }
+</style>
+</html>
